@@ -13,6 +13,8 @@ import Services from './components/Services';
 import Menu from './components/Menu';
 import Contact from './components/Contact';
 import Testimonial from './components/Testimonial';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
 
 
 function App() {
@@ -21,11 +23,13 @@ function App() {
       <Router>
       <Routes>
       <Route exact path="/" element={<Home />}></Route>
-      <Route exact path="/about" element={<About />}></Route>
-      <Route exact path="/services" element={<Services/>}></Route>
-      <Route exact path="/menu" element={<Menu/>}></Route>
-      <Route exact path="/contect" element={<Contact/>}></Route>
-      <Route exact path="/testimonial" element={<Testimonial/>}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/services" element={<Services/>}></Route>
+      <Route path="/menu" element={<Menu/>}></Route>
+      <Route path="/contect" element={<Contact/>}></Route>
+      <Route path="/testimonial" element={<Testimonial/>}></Route>
+      <Route path='/sign-in' element={<SignIn />}/>
+      <Route path='/sign-up' element={<SignUp />} />
       </Routes>
       </Router>
       
