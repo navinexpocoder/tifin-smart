@@ -77,7 +77,7 @@ const SignUp = () => {
         </div>
       </div>
       <div className="submit-container">
-        <button className=".btn .btn-primary">{loading ? 'loading..': 'SIGNUP'} </button>
+        <button className="">{loading ? 'loading..': 'SIGNUP'} </button>
       </div>
     </div>
     </form>
