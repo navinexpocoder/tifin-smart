@@ -1,8 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import AliceCarousel from "react-alice-carousel";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "./Footer";
+
+
 
 function Home() {
   const responsive = {
@@ -22,6 +27,7 @@ function Home() {
           class="img-fluid flex-shrink-0 rounded-circle"
           src="img/testimonial-1.jpg"
           style={{ width: "50px", height: "50px" }}
+          alt=""
         />
         <div class="ps-3">
           <h5 class="mb-1">Client Name</h5>
@@ -37,9 +43,10 @@ function Home() {
       </p>
       <div class="d-flex align-items-center">
         <img
-          class="img-fluid flex-shrink-0 rounded-circle"
+          className="img-fluid flex-shrink-0 rounded-circle"
           src="img/testimonial-2.jpg"
           style={{ width: "50px", height: "50px" }}
+          alt=""
         />
         <div class="ps-3">
           <h5 class="mb-1">Client Name</h5>
@@ -55,9 +62,10 @@ function Home() {
       </p>
       <div class="d-flex align-items-center">
         <img
-          class="img-fluid flex-shrink-0 rounded-circle"
+          className="img-fluid flex-shrink-0 rounded-circle"
           src="img/testimonial-3.jpg"
           style={{ width: "50px", height: "50px" }}
+          alt=""
         />
         <div class="ps-3">
           <h5 class="mb-1">Client Name</h5>
@@ -92,7 +100,7 @@ function Home() {
                   Free delivery when you order healthy food.
                   </p>
                   <a
-                    href=""
+                    href="/"
                     className="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft"
                   >
                     Order Now
@@ -193,6 +201,7 @@ function Home() {
                       className="img-fluid rounded w-100 wow zoomIn"
                       data-wow-delay="0.1s"
                       src="img/A_2.webp"
+                      alt=""
                     />
                   </div>
                   <div className="col-6 text-start">
@@ -201,6 +210,7 @@ function Home() {
                       data-wow-delay="0.3s"
                       src="img/A_1.jpeg"
                       style={{ marginTop: "25%" }}
+                      alt=""
                     />
                   </div>
                   <div className="col-6 text-end">
@@ -208,6 +218,7 @@ function Home() {
                       className="img-fluid rounded w-75 wow zoomIn"
                       data-wow-delay="0.5s"
                       src="img/A_3.webp"
+                      alt=""
                     />
                   </div>
                   <div className="col-6 text-end">
@@ -215,6 +226,7 @@ function Home() {
                       className="img-fluid rounded w-100 wow zoomIn"
                       data-wow-delay="0.7s"
                       src="img/A_5.png"
+                      alt=""
                     />
                   </div>
                 </div>
@@ -242,7 +254,7 @@ function Home() {
                     </div>
                   </div>
                               </div>
-                <a className="btn btn-primary py-3 px-5 mt-2" href="">
+                <a className="btn btn-primary py-3 px-5 mt-2" href="/">
                   Read More
                 </a>
               </div>
@@ -784,6 +796,7 @@ function Home() {
               <div className="modal-body">
                 <div className="ratio ratio-16x9">
                   <iframe
+                  title="1"
                     className="embed-responsive-item"
                     src=""
                     id="video"
@@ -1039,9 +1052,10 @@ function Home() {
             </div>
           </div>
         </div> */}
+        
 <Footer/>
         <a
-          href="#"
+          href="/#"
           className="btn btn-lg btn-primary btn-lg-square back-to-top"
         >
           <i className="bi bi-arrow-up"></i>

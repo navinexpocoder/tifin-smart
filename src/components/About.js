@@ -82,7 +82,7 @@ function About() {
                 </h5>
                 <h1 className="mb-4">
                   Welcome to{" "}
-                  <i className="fa fa-utensils text-primary me-2"></i>Tifin
+                  <i className="fa fa-utensils text-primary me-2"></i>Tiffin
                   Smart
                 </h1>
                 <p className="mb-4">

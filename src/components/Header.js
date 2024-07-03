@@ -3,13 +3,13 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-4 px-lg-5 py-2 py-lg-0">
+      <div className="container-fluid position-relative p-0">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-4 px-lg-5 py-2 py-lg-0">
           <a href="/" className="navbar-brand p-0">
             <img src="img/logo.png" alt="Logo" />
           </a>
           <button
-            class="navbar-toggler collapsed"
+            className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse"
@@ -32,12 +32,12 @@ function Header() {
                 Menu
               </a>
 
-              <a href="/contect" className="nav-item nav-link">
+              <a href="/contact" className="nav-item nav-link">
                 Contact
               </a>
             </div>
-            <a href="/testimonial" className="btn btn-primary py-2 px-4">
-              Login
+            <a href="/sign-up" className="btn btn-primary py-2 px-4">
+              Register
             </a>
           </div>
         </nav>
